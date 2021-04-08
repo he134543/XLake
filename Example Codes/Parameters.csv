@@ -1,0 +1,6 @@
+Parameter,umax,Topt,kl,ksn,ksp,dn,dp,upt_n_max,upt_p_max,rmax,dchl
+Description,Maximum growth rate of chl-a,Optimal Temperature for algal growth,Half Saturation Light Intensity of algal growth,Half Saturation nitrogen concentration of algal growth,Half Saturation phosphrus concentration of algal growth,Loss rate of nitrogen,Loss rate of phosphrus,Maximum Uptake rate of nitrogen,Maximum Uptake rate of phosphrus,Maximum Death rate of algae,Loss rate of chl-a
+unit,/d,C,uE/(m2/s),mg/L,mg/L,/d,/d,/d,/d,/d,/d
+min,0,25,200,0.1,0.001,,,,,0,0
+max,2.5,35,500,0.6,0.05,,,,,0.5,0.5
+Value,1.25,29.5,295,0.22,0.015,0.03,0.02,0.05,0.048,1,0.48
